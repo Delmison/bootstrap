@@ -1,0 +1,39 @@
+:root{
+    --white:#fafafa;
+    --blue: #00348a;
+    --blue-light:#0bbbd6;
+    --ciza: rgb(224, 224, 224);
+
+}
+
+*{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    color:var(--white);
+}
+
+.quem-somos{
+    background-color: var(--ciza);
+}
+
+.margin{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.parceiros{
+    background-color: var(--ciza);
+}
+
+.servicos{
+    background-color: var(--ciza);
+}
+.bg-footer{
+    background-color: black;
+    color:var(--white);
+}
