@@ -133,6 +133,16 @@ a:hover{
     background-color: var(--cinza);
     padding-top: 100px;
 }
+
+#home{
+    padding-top: 80px;
+}
+.home{
+    color:var(--white);
+    background-color: black;
+
+    
+}
 .bg-footer{
     background-color: black;
     color:var(--white);
