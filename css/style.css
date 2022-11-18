@@ -115,7 +115,8 @@ a:hover{
     
 }
 .quem-somos{
-    background-color: var(--cinza);
+    background-color: black;
+    color: var(--white);
     
 }
 
@@ -125,12 +126,14 @@ a:hover{
 }
 
 .parceiros{
-    background-color: var(--cinza);
+    background-color: black;
+    color:var(--white);
     padding-top: 100px;
 }
 
 .servicos{
-    background-color: var(--cinza);
+    background-color: black;
+    color:white;
     padding-top: 100px;
 }
 

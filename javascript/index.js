@@ -9,3 +9,7 @@ function home(){
 function parceiros(){
     window.location.href="parceiros.html"
 }
+
+function quemsomos(){
+    window.location.href="quemsomos.html"
+}
