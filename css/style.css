@@ -111,13 +111,18 @@ a:hover{
 }
 
 #quemsomos{
-    padding-top: 80px;
+    padding-top: 60px;
     
 }
 .quem-somos{
     background-color: black;
     color: var(--white);
+    padding-bottom: 60px;
     
+}
+
+h3{
+    padding-top: 60px;
 }
 
 .margin{
@@ -128,7 +133,7 @@ a:hover{
 .parceiros{
     background-color: black;
     color:var(--white);
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .servicos{
