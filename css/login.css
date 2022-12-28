@@ -1,0 +1,160 @@
+:root{
+    --azul-background:rgb(5, 1, 61);
+    --cinza-claro:rgb(122, 121, 121);
+    --azul-painel:rgb(18, 13, 89);
+}
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: aqua;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(38, 0, 255);
+}
+
+.btn-voltar{
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: aqua;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(38, 0, 255);
+}
+
+.btn-cadastrar{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: aqua;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgb(38, 0, 255);
+}
+
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--azul-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+
+.left-login-image{
+    width: 35vw;
+
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: var(--azul-painel);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px -8px rgba(67, 71, 71, 0.897);
+}
+
+.card-login > h1{
+    color: aqua;
+    font-weight: 800;
+    margin: 0;
+}
+
+.form-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.form-field > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: var(--azul-background);
+    color: rgb(94, 91, 91);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px -12px rgba(86, 182, 175, 0.897);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-field > label {
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.form-field > input::placeholder{
+    color: var(--cinza-claro);
+}
+
+
+@media (max-width: 952px){
+    .card-login{
+        width: 85%;
+    }
+}
+@media (max-width: 858px){
+	.main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+
+}

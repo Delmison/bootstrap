@@ -148,9 +148,16 @@ h3{
 .home{
     color:var(--white);
     background-color: black;
-
-    
 }
+
+#arearestrita{
+    padding-top: 80px;
+}
+.arearestrita{
+    color:var(--white);
+    background-color: black;
+}
+
 .bg-footer{
     background-color: black;
     color:var(--white);
