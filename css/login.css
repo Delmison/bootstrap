@@ -158,3 +158,9 @@ body{
     }
 
 }
+
+.error {
+    background: red;
+    color: white;
+    display: none;
+} 

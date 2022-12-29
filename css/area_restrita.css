@@ -1,0 +1,13 @@
+:root{
+    --branco-gelo:rgb(238, 231, 231);
+}
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu',sans-serif;
+    background-color: black;
+}
+
+.title{
+    color:var(--branco-gelo);
+}
